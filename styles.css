@@ -4,6 +4,33 @@
     font-family: 'Lato', sans-serif;
 }
 
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 15px;
+    background-color: white;
+}
+
+.nav>ul {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #272727;
+    font-size: large;
+
+}
+
 .header {
     background-color: rgba(229, 84, 115, 0.1);
     display: flex;
@@ -73,7 +100,6 @@
     display: flex;
     align-items: center;
     margin: 48px 260px;
-    /* justify-content: space-between; */
     gap: 24px;
 }
 
@@ -142,9 +168,90 @@
     line-height: 30px;
     margin-bottom: 32px;
 }
+
 .hotdeal-part2 {
     padding: 100px 429px 100px 0px;
 }
 
+.bg-img {
+    background-image: url('./assest/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    margin: 128px 240px;
+
+}
+
+.vitore {
+    text-align: center;
+    padding-top: 122px;
+    padding-left: 528px;
+    padding-right: 528px;
+}
+
+.inpit {
+    text-align: center;
+    padding: 48px 287px 121px 287px;
+
+}
+
+.input2 {
+    padding: 25px 513px 25px 25px;
+    border-radius: 8px;
+    border: none;
+    margin-right: 20px;
+
+}
+
+.extra-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.90);
+    margin: 30px 70px;
+    padding: 50px;
+    text-align: center;
+
+}
+
+.new1,
+.new2 {
+    padding-right: 240px;
+}
+
+.Featured4 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
 
 
+
+
+.foot {
+    align-items: center;
+    text-align: center;
+    background-color: #111010;
+    padding: 128px 649px;
+}
+
+.foot1 {
+    font-size: 48px;
+    font-weight: 800;
+
+}
+
+.foot2 {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+    margin-top: 24px;
+}
+
+.normal {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+
+}
